@@ -1,0 +1,4 @@
+# Synthetic sample; no credentials.
+APP_NAME=sample
+API_URL=https://api.example.invalid
+LOG_LEVEL=info

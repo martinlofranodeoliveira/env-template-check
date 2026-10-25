@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "env-template-check"
+version = "0.1.0"
+description = "Compare environment variable names without exposing values"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Martin Lofrano de Oliveira"}]
+dependencies = []
+
+[project.scripts]
+env-template-check = "env_template_check.__main__:main"
+
+[tool.setuptools]
+packages = ["env_template_check"]

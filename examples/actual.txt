@@ -1,0 +1,4 @@
+# Synthetic sample showing one missing and one extra name.
+APP_NAME=demo
+API_URL=https://demo.example.invalid
+DEBUG=false
